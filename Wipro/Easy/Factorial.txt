@@ -1,3 +1,20 @@
+Example 1:
+
+Input:
+N = 5
+Output:
+120
+Explanation:
+5*4*3*2*1 = 120
+======================================
+Explanation:- This C++ function calculates the factorial of a given integer N and returns the result as a long long int to handle potentially large values. The function begins by initializing a variable fact to 1, which will be used to accumulate the product of all integers from 1 to N. 
+
+It then enters a loop that runs from 1 to N, multiplying fact by each successive integer i. This loop effectively computes the factorial by iteratively multiplying the current value of fact with the loop variable i. Once the loop completes, fact contains the final factorial value, which the function then returns. 
+
+The use of long long int ensures that the function can handle large results, which is important because factorial values grow rapidly with increasing N. For example, with N = 5, the function will calculate and return 120, since 5! equals 120. This approach is straightforward and efficient for computing the factorial of a number using an iterative method.
+
+solution/code:- 
+
 long long int factorial(int N){
         //code here
         long long int fact=1;
@@ -6,3 +23,4 @@ long long int factorial(int N){
         }
         return fact;
     }
+============================================================================================================================
