@@ -1,0 +1,20 @@
+Problem 2
+
+Example 2:
+
+Input: a = 13, b = 9
+Output: 9 13
+Explanation: after swapping it
+becomes 9 and 13.
+============================================
+Explanation:- The provided C++ code defines a function named get that takes two integer arguments, a and b, and returns a pair containing these integers with their order swapped. The pair is a standard container in C++ that can hold two values of specified types. In this function, both elements of the pair are integers. 
+
+When the function is called, it constructs a pair where the first element is the value of b and the second element is the value of a, effectively reversing their order. This pair is then returned to the caller. For example, if the function is called with get(3, 7), the result will be a pair where the first element is 7 and the second element is 3. This function can be useful in situations where you need to swap two values and return them together as a single object.
+
+Solution/code:-
+===============
+pair<int, int> get(int a, int b){
+       
+        return {b,a};
+    }
+==========================================================================================================
