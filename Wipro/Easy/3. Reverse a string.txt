@@ -1,7 +1,3 @@
-Problem 3
-
-Example 1:
-
 Input:
 s = Geeks
 Output: skeeG
