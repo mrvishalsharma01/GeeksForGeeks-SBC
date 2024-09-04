@@ -15,7 +15,8 @@ It then enters a loop that runs from 1 to N, multiplying fact by each successive
 
 The use of long long int ensures that the function can handle large results, which is important because factorial values grow rapidly with increasing N. For example, with N = 5, the function will calculate and return 120, since 5! equals 120. This approach is straightforward and efficient for computing the factorial of a number using an iterative method.
 
-solution/code:- 
+solution/code:-
+=================
 
 long long int factorial(int N){
         //code here
